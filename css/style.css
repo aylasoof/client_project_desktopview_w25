@@ -125,6 +125,10 @@ nav ul a.active{
   border: solid 2px #ffcb05;
 }
 
+#Error nav ul a{
+  background-color: #00274c;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -534,6 +538,11 @@ img {
 
 #Intramural h4{
   color: #0f3462;
+}
+
+#Error p{
+  grid-column: 1 / -1;
+  text-align: center;
 }
 
 
